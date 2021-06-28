@@ -5,7 +5,8 @@ MENYO-20k is a multi-domain parallel dataset with texts obtained from news artic
 #### License
 For non-commercial use because some of the data sources like [Ted talks](https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy) and [JW news](https://www.jw.org/en/terms-of-use/#link0) requires permission for commercial use. 
 
-
+#### Paper:
+We provide a detailed explanation of the dataset and some benchmark experiment in our [paper](https://arxiv.org/abs/2103.08647)
 
 #### Contributors:
 
@@ -16,22 +17,13 @@ David I. Adelani, Jesujoba O. Alabi, Damilola Adebonojo, Adesina Ayeni, Mofe Ade
 
 This project was supported by the [AI4D language dataset fellowship](https://www.k4all.org/project/language-dataset-fellowship/) through K4All and Zindi Africa
 
-If you use this dataset, please cite the dataset
+If you use this dataset, please cite this paper
 ```
-@dataset{david_ifeoluwa_adelani_2020_4297448,
-  author       = {David Ifeoluwa Adelani and
-                  Jesujoba O. Alabi and
-                  Damilola Adebonojo and
-                  Adesina Ayeni and
-                  Mofe Adeyemi and
-                  Ayodele Awokoya},
-  title        = {{MENYO-20k: A Multi-domain English - Yorùbá Corpus 
-                   for Machine Translation}},
-  month        = nov,
-  year         = 2020,
-  publisher    = {Zenodo},
-  version      = {1.0},
-  doi          = {10.5281/zenodo.4297448},
-  url          = {https://doi.org/10.5281/zenodo.4297448}
+@article{Adelani2021MENYO20kAM,
+  title={MENYO-20k: A Multi-domain English-Yor{\`u}b{\'a} Corpus for Machine Translation and Domain Adaptation},
+  author={D. Adelani and Dana Ruiter and J. Alabi and Damilola Adebonojo and Adesina Ayeni and Mofetoluwa Adeyemi and Ayodele Awokoya and C. Espa{\~n}a-Bonet},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2103.08647}
 }
 ```
